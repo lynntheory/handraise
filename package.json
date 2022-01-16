@@ -1,0 +1,37 @@
+{
+	"name": "Handraise",
+	"version": "0.0.1",
+	"description": "tbd",
+	"homepage": "https://github.com/lynntheory/handraise",
+	"bugs": {
+		"url": "https://github.com/lynntheory/handraise/issues",
+		"email": "lynn@lynntheory.com"
+	},
+	"license": "UNLICENSED",
+	"private": true,
+	"author": {
+		"name": "Lynn Tennyson",
+		"email": "lynn@lynntheory.com"
+	},
+	"funding": "http://kofi.com/lynntheory",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/lynntheory/handraise.git"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"@discordjs/opus": "^0.5.3",
+		"deta": "^1.0.1",
+		"discord.js": "^13.6.0",
+		"dotenv": "^11.0.0",
+		"express": "^4.16.4",
+		"ffmpeg": "^0.0.4",
+		"fluent-ffmpeg": "^2.1.2"
+	},
+	"engines": {
+		"node": "16.x"
+	}
+}

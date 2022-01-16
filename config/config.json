@@ -1,0 +1,12 @@
+{
+	"Prefix": "^",
+	"identity": "handraise",
+  "botURL": "url",
+  "convChannel": "convo",
+  "presence": [
+    "message A",
+    "message B",
+    "message C",
+    "message D"
+  ]
+}
