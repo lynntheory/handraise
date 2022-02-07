@@ -1,7 +1,7 @@
 {
-	"Prefix": "^",
+	"Prefix": "!",
 	"identity": "handraise",
-  "botURL": "url",
+  "botURL": "https://75iw9z.deta.dev",
   "convChannel": "convo",
   "presence": [
     "message A",

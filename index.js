@@ -2,7 +2,7 @@
 const fs = require('fs');
 const http = require('http');
 const express = require('express');
-const { Client, Intents, WebhookClient } = require('discord.js');\
+const { Client, Intents, WebhookClient } = require('discord.js');
 const config = require('./config/config.json');
 
 // Create a new client and new webhook
