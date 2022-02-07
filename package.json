@@ -7,7 +7,7 @@
 		"url": "https://github.com/lynntheory/handraise/issues",
 		"email": "lynn@lynntheory.com"
 	},
-	"license": "UNLICENSED",
+	"license": "MIT",
 	"private": true,
 	"author": {
 		"name": "Lynn Tennyson",
@@ -24,12 +24,12 @@
 	},
 	"dependencies": {
 		"@discordjs/opus": "^0.5.3",
+		"@discordjs/voice": "^0.3.1",
 		"deta": "^1.0.1",
 		"discord.js": "^13.6.0",
 		"dotenv": "^11.0.0",
 		"express": "^4.16.4",
-		"ffmpeg": "^0.0.4",
-		"fluent-ffmpeg": "^2.1.2"
+		"ffmpeg-static": "^4.4.1"
 	},
 	"engines": {
 		"node": "16.x"
