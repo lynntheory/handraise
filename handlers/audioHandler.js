@@ -13,10 +13,12 @@ const chime = createAudioResource('../resources/chime.mp3');
 
 
 module.exports.join = function (message, args, errHook) {
+	const voiceChannel = message.member.voice.channel;
 	const connection = joinVoiceChannel({
-		channelId: channel.id,
-		guildId: channel.guild.id,
-		adapterCreator: channel.guild.voiceAdapterCreator
+		channelId: voiceChannel.id,
+		guildId: voiceChannel.guild.id,
+		adapterCreator: voiceChannel.guild.voiceAdapterCreator,
+		selfDeaf: false,
 	});
 };
 
